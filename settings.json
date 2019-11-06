@@ -1,0 +1,44 @@
+{
+  "sheet_names": [
+    "Study1", "Study2", "Study3", "Study4", "Study5", "Study7", "Study8", "Study9"
+  ],
+  "time_start_column": "Timestamp Start",
+  "time_end_column": "Timestamp End",
+  "time_elapsed_column": "Time Elapsed",
+  "time_between_column": "Time Between Last DA",
+  "gender_column": "Gender",
+  "other_gender_column": "Other Gender",
+  "speaker_column": "Speaker",
+  "driver_column": "Driver",
+  "dialogue_column": "Dialogue Act",
+  "other_prev_column": "Other Prev Dialogue",
+  "other_prev_prepend": "Other Prev: ",
+  "same_prev_column": "Same Prev Dialogue",
+  "same_prev_prepend": "Same Prev: ",
+
+  "time_start": false,
+  "time_end": false,
+  "time_elapsed": true,
+  "time_between": true,
+  "gender": true,
+  "other_gender": true,
+  "dialogue": true,
+  "other_prev": true,
+  "same_prev": true,
+  "driver": false,
+  "gender_dict": {
+    "F": 0,
+    "M": 1
+  },
+
+  "max_gram": 3,
+  "min_freq": 0.001,
+  "max_freq": 1.0,
+
+  "label_column": "Driver",
+  "svm": true,
+  "kernel": "linear",
+  "poly_degree": 3,
+  "class_weights": false,
+  "normalized_heatmap": true
+}
