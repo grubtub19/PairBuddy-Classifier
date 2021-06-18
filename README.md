@@ -1,5 +1,9 @@
 # PairBuddy-Classifier
 
+An application of an SVM machine learning model to classify three facets of pair programming
+
+## How to Run
+
 Runner.py is the main class
 
 You must get a credential.json from this website and put it in the project directory
