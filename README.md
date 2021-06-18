@@ -2,6 +2,12 @@
 
 An application of an SVM machine learning model to classify three facets of pair programming
 
+## Research Paper
+
+This code accompanies the following published research at VL/HCC 2019:
+
+https://ieeexplore.ieee.org/document/9127250
+
 ## How to Run
 
 Runner.py is the main class
